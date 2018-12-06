@@ -8,7 +8,6 @@ const queue = new Map();
 const ytdl = require('ytdl-core');
  const pretty = require('pretty-ms') 
 const fs = require('fs');
-var prefix = "R3"
 const Util = require('discord.js');
 
 ////////////////////////////////////////
@@ -50,7 +49,7 @@ client.channels.get("467833183254347797").sendEmbed(embed)
 });
  
 
-const prefix = "R3"
+var prefix = "R3"
 client.on('message', async msg => { 
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;

@@ -16,7 +16,7 @@ const Util = require('discord.js');
 ////////////////////////////////////////
 
 client.on('message', msg => {
-  if (msg.content.startsWith('R3play')) {
+  if (msg.content.startsWith('Rplay')) {
     msg.channel.send('Use R3play');
   }
 });

@@ -9,6 +9,7 @@ const queue = new Map();
 const ytdl = require('ytdl-core');
  const pretty = require('pretty-ms') 
 const fs = require('fs');
+var prefix = "R3"
 const Util = require('discord.js');
 
 ////////////////////////////////////////

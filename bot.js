@@ -1,4 +1,6 @@
-const Discord = require('discord.js');  
+const Discord = require('discord.js'); 
+var Discord = require('discord.js');
+var client = new Discord.Client(); 
 const getYoutubeID = require('get-youtube-id'); 
 const fetchVideoInfo = require('youtube-info');
 const YouTube = require('simple-youtube-api');

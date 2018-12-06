@@ -8,8 +8,10 @@ const ytdl = require('ytdl-core');
  const pretty = require('pretty-ms') 
 const fs = require('fs');
 const Util = require('discord.js');
-,ti={}  
-,spee={}; 
+const prefix = "R3";
+
+////////////////////////////////////////
+////////////////////////////////////////
 
 client.on('message', msg => {
   if (msg.content.startsWith('R3play')) {

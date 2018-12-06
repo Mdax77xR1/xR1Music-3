@@ -8,7 +8,6 @@ const ytdl = require('ytdl-core');
  const pretty = require('pretty-ms') 
 const fs = require('fs');
 const Util = require('discord.js');
-const prefix = "R3";
 
 ////////////////////////////////////////
 ////////////////////////////////////////
